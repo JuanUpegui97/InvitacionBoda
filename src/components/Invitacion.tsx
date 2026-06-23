@@ -4,7 +4,6 @@ import Hero from "./invitacion/Hero";
 import "./Invitacion.css";
 import NuestraHistoria from "./invitacion/NuestraHistoria";
 import CuentaRegresiva from "./invitacion/CuentaRegresiva";
-import lugarBoda from "./invitacion/Lugar";
 import Lugar from "./invitacion/Lugar";
 import DressCode from "./invitacion/DressCode";
 import Cronograma from "./invitacion/Cronograma";
