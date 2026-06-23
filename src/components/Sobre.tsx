@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 import videoPortada from "../assets/portada.mp4";
-import "./sobre.css";
+import "./Sobre.css";
 import { motion } from "framer-motion";
 
 interface Props {
