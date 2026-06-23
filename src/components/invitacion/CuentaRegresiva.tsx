@@ -1,0 +1,139 @@
+import { useEffect, useState } from "react";
+
+const CuentaRegresiva = () => {
+
+    const [tiempo, setTiempo] = useState({
+        dias: 0,
+        horas: 0,
+        minutos: 0,
+        segundos: 0
+    });
+
+    useEffect(() => {
+
+        const intervalo = setInterval(() => {
+
+            const fechaBoda = new Date("2027-04-24T16:00:00");
+
+            const ahora = new Date();
+
+            const diferencia = fechaBoda.getTime() - ahora.getTime();
+
+            const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+
+            const horas = Math.floor(
+                (diferencia % (1000 * 60 * 60 * 24))
+                / (1000 * 60 * 60)
+            );
+
+            const minutos = Math.floor(
+                (diferencia % (1000 * 60 * 60))
+                / (1000 * 60)
+            );
+
+            const segundos = Math.floor(
+                (diferencia % (1000 * 60))
+                / 1000
+            );
+
+            setTiempo({
+                dias,
+                horas,
+                minutos,
+                segundos
+            });
+
+        }, 1000);
+
+        return () => clearInterval(intervalo);
+
+    }, []);
+
+    return (
+
+        <div
+            style={{
+                marginTop: "120px",
+                marginBottom: "120px"
+            }}
+        >
+
+            <h2>
+                💍 24 Abril 2027
+            </h2>
+
+            <p>
+                Falta muy poco para nuestro gran día
+            </p>
+
+            <div
+                style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    gap: "20px",
+                    marginTop: "40px",
+                    flexWrap: "wrap"
+                }}
+            >
+
+                <div
+                    style={{
+                        background: "white",
+                        padding: "20px",
+                        borderRadius: "20px",
+                        minWidth: "120px",
+                        boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
+                    }}
+                >
+                    <h1>{tiempo.dias}</h1>
+                    <p>Días</p>
+                </div>
+
+                <div
+                    style={{
+                        background: "white",
+                        padding: "20px",
+                        borderRadius: "20px",
+                        minWidth: "120px",
+                        boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
+                    }}
+                >
+                    <h1>{tiempo.horas}</h1>
+                    <p>Horas</p>
+                </div>
+
+                <div
+                    style={{
+                        background: "white",
+                        padding: "20px",
+                        borderRadius: "20px",
+                        minWidth: "120px",
+                        boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
+                    }}
+                >
+                    <h1>{tiempo.minutos}</h1>
+                    <p>Minutos</p>
+                </div>
+
+                <div
+                    style={{
+                        background: "white",
+                        padding: "20px",
+                        borderRadius: "20px",
+                        minWidth: "120px",
+                        boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
+                    }}
+                >
+                    <h1>{tiempo.segundos}</h1>
+                    <p>Segundos</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    );
+
+};
+
+export default CuentaRegresiva;
