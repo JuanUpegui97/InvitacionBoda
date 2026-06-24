@@ -59,11 +59,11 @@ const CuentaRegresiva = () => {
         >
 
             <h2>
-                💍 24 Abril 2027
+                💍 24 avril 2027
             </h2>
 
             <p>
-                Falta muy poco para nuestro gran día
+                Le grand jour arrive bientôt
             </p>
 
             <div

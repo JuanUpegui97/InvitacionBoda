@@ -1,0 +1,27 @@
+.hero-invitado {
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 25px 20px;
+    background: rgba(255, 248, 245, 0.70);
+    border-radius: 18px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-titulo {
+    font-size: 3rem;
+    color: #6b3f3f;
+    margin-bottom: 18px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.hero-texto {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 1.12rem;
+    line-height: 1.9;
+    color: #5a4a4a;
+}

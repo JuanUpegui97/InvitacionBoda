@@ -1,103 +1,110 @@
 import Carousel from "react-bootstrap/Carousel";
+import "./NuestraHistoria.css";
 
 import foto1 from "../../assets/ima1.jpeg";
 import foto2 from "../../assets/ima2.jpeg";
+import foto21 from "../../assets/ima21.jpeg";
 import foto3 from "../../assets/ima3.jpeg";
 
 const NuestraHistoria = () => {
-
     return (
-
-        <div
-            style={{
-                marginTop: "100px",
-                marginBottom: "100px"
-            }}
-        >
-
-            <h2>
-                Nuestra Historia ❤️
+        <div className="nuestra-historia">
+            <h2 className="nuestra-historia-titulo">
+                Notre histoire ❤️
             </h2>
-            <Carousel
-                style={{
-                    maxWidth: "700px",
-                    margin: "40px auto"
-                }}
-            >
+
+            <Carousel className="nuestra-historia-carousel">
 
                 <Carousel.Item>
-                    <img
-                        src={foto1}
-                        alt="Foto 1"
-                        className="d-block w-100"
-                        style={{
-                            borderRadius: "20px",
-                            maxHeight: "500px",
-                            objectFit: "cover"
-                        }}
-                    />
+                    <div className="carousel-imagen-wrapper">
+                        <img
+                            src={foto1}
+                            alt="Foto 1"
+                            className="carousel-imagen-historia"
+                        />
 
-                    <Carousel.Caption>
-                        <h3>Nuestro primera foto juntos</h3>
-                        <p>El comienzo de una hermosa historia.</p>
-                    </Carousel.Caption>
+                        <div className="carousel-overlay"></div>
+
+                        <Carousel.Caption className="carousel-caption-custom">
+                            <h3>Notre première photo ensemble</h3>
+                            <p>
+                                Le commencement d'une belle histoire,
+                                évidemment au sommet d'une montagne.
+                            </p>
+                        </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img
-                        src={foto2}
-                        alt="Foto 2"
-                        className="d-block w-100"
-                        style={{
-                            borderRadius: "20px",
-                            maxHeight: "500px",
-                            objectFit: "cover"
-                        }}
-                    />
+                    <div className="carousel-imagen-wrapper">
+                        <img
+                            src={foto2}
+                            alt="Foto 2"
+                            className="carousel-imagen-historia"
+                        />
 
-                    <Carousel.Caption>
-                        <h3>El gran sí 💍</h3>
-                        <p>El día que decidimos caminar juntos para siempre.</p>
-                    </Carousel.Caption>
+                        <div className="carousel-overlay"></div>
+
+                        <Carousel.Caption className="carousel-caption-custom">
+                            <h3>Le grand OUI 💍</h3>
+                            <p>
+                                Le jour où nous avons décidé que nous avancerions
+                                ensemble le reste de notre vie.
+                            </p>
+                        </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img
-                        src={foto3}
-                        alt="Foto 3"
-                        className="d-block w-100"
-                        style={{
-                            borderRadius: "20px",
-                            maxHeight: "500px",
-                            objectFit: "cover"
-                        }}
-                    />
+                    <div className="carousel-imagen-wrapper">
+                        <img
+                            src={foto21}
+                            alt="Foto 3"
+                            className="carousel-imagen-historia"
+                        />
 
-                    <Carousel.Caption>
-                        <h3>Nuestro gran rencuentro </h3>
-                        <p>Momentos que nunca olvidaremos.</p>
-                    </Carousel.Caption>
+                        <div className="carousel-overlay"></div>
+
+                        <Carousel.Caption className="carousel-caption-custom">
+                            <h3>Mari et femme</h3>
+                            <p>
+                                Notre premier baiser en tant que mari et femme 💕
+                            </p>
+                        </Carousel.Caption>
+                    </div>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <div className="carousel-imagen-wrapper">
+                        <img
+                            src={foto3}
+                            alt="Foto 4"
+                            className="carousel-imagen-historia"
+                        />
+
+                        <div className="carousel-overlay"></div>
+
+                        <Carousel.Caption className="carousel-caption-custom">
+                            <h3>Les retrouvailles</h3>
+                            <p>
+                                La distance installe des doutes,
+                                chaque retrouvaille les balaye.
+                            </p>
+                        </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
 
             </Carousel>
 
-            <p
-                style={{
-                    maxWidth: "700px",
-                    margin: "30px auto",
-                    fontSize: "1.1rem",
-                    lineHeight: "1.8"
-                }}
-            >
-                Desde el día que nos conocimos comenzó una aventura llena de amor,
-                risas, viajes, sueños compartidos y momentos inolvidables.
-                Hoy queremos celebrar contigo el inicio de nuestro nuevo capítulo.
-            </p>
+            <div className="card-seccion">
+                <p>
+                    Depuis le jour de notre rencontre, une merveilleuse aventure faite d’amour, de rires, de voyages, de rêves partagés et de moments inoubliables a commencé.
+                    Aujourd’hui, nous souhaitons célébrer avec toi le début de ce nouveau chapitre de notre vie.
+                </p>
+            </div>
 
         </div>
-
     );
-
 };
 
 export default NuestraHistoria;

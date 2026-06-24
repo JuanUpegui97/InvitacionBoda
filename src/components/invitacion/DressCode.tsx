@@ -1,44 +1,20 @@
+
 const DressCode = () => {
-
     return (
+        <div className="seccion-invitacion">
+            <h2>Dress Code</h2>
 
-        <div
-            style={{
-                marginTop: "120px",
-                marginBottom: "120px"
-            }}
-        >
-
-            <h2>
-                👗 Dress Code
-            </h2>
-
-            <div
-                style={{
-                    background: "white",
-                    maxWidth: "700px",
-                    margin: "30px auto",
-                    padding: "40px",
-                    borderRadius: "20px",
-                    boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
-                }}
-            >
-
-                <h3>
-                    Elegante
-                </h3>
+            <div className="card-seccion">
+                <h3>Élégant</h3>
 
                 <p>
-                    Queremos que te sientas cómodo y disfrutes de esta celebración
-                    con nosotros.
+                    Venez comme vous êtes, beaux comme des camions.
+                    Pas de dresscode en particulier, restons élégants
+                    en étant à l'aise pour danser toute la nuit.
                 </p>
-
             </div>
-
         </div>
-
     );
-
 };
 
 export default DressCode;

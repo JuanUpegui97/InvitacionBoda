@@ -8,10 +8,8 @@ interface Props {
     nombresInvitado: string;
 }
 
-const sobre = ({ onAbrirInvitacion }: Props) => {
-
+const Sobre = ({ onAbrirInvitacion }: Props) => {
     return (
-
         <div className="sobre-container">
 
             <video
@@ -26,53 +24,30 @@ const sobre = ({ onAbrirInvitacion }: Props) => {
 
             <motion.div
                 className="overlay"
-                initial={{
-                    opacity: 0,
-                    y: 50
-                }}
-                animate={{
-                    opacity: 1,
-                    y: 0
-                }}
-                transition={{
-                    duration: 2
-                }}
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 2 }}
             >
-
-                <h1
-                    style={{
-                        fontSize: "5rem",
-                        color: "white",
-                        marginBottom: "20px"
-                    }}
-                >
+                <h1 className="titulo-portada">
                     Camille & Juan
                 </h1>
 
-                <h3
-                    style={{
-                        color: "white",
-                        letterSpacing: "8px",
-                        marginBottom: "40px"
-                    }}
-                >
-                    NOS CASAMOS
+                <h3 className="subtitulo-portada">
+                    NOUS NOUS MARIONS
                 </h3>
 
                 <Button
                     size="lg"
                     variant="light"
                     onClick={onAbrirInvitacion}
+                    className="boton-portada"
                 >
-                    Ver Invitación
+                    Voir l’invitation
                 </Button>
-
             </motion.div>
 
         </div>
-
     );
-
 };
 
-export default sobre;
+export default Sobre;

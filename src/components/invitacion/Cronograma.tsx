@@ -1,44 +1,20 @@
 const Cronograma = () => {
-
     return (
+        <div className="seccion-invitacion">
+            <h2>✨ Planning</h2>
 
-        <div
-            style={{
-                marginTop: "120px",
-                marginBottom: "120px"
-            }}
-        >
-
-            <h2>
-                ✨ Cronograma
-            </h2>
-
-            <div
-                style={{
-                    background: "white",
-                    maxWidth: "700px",
-                    margin: "30px auto",
-                    padding: "40px",
-                    borderRadius: "20px",
-                    boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
-                }}
-            >
-
+            <div className="card-seccion">
                 <h3>
-                    Próximamente
+                    En cours de préparation ! Nous mettrons directement à jour le site web ❤️
                 </h3>
 
                 <p>
-                    Estamos preparando cada detalle de este día tan especial.
-                    Muy pronto compartiremos el cronograma completo de la celebración.
+                    Nous préparons chaque détail de cette journée si spéciale.
+                    Très bientôt, nous partagerons le programme complet de la célébration.
                 </p>
-
             </div>
-
         </div>
-
     );
-
 };
 
 export default Cronograma;
