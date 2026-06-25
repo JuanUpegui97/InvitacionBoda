@@ -11,7 +11,6 @@ interface Props {
 const Sobre = ({ onAbrirInvitacion }: Props) => {
     return (
         <div className="sobre-container">
-
             <video
                 className="video-fondo"
                 autoPlay
@@ -28,24 +27,25 @@ const Sobre = ({ onAbrirInvitacion }: Props) => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2 }}
             >
-                <h1 className="titulo-portada">
-                    Camille & Juan
-                </h1>
+                <div className="contenido-portada">
+                    <h1 className="titulo-portada">
+                        Camille & Juan
+                    </h1>
 
-                <h3 className="subtitulo-portada">
-                    NOUS NOUS MARIONS
-                </h3>
+                    <h3 className="subtitulo-portada">
+                        Se marient
+                    </h3>
 
-                <Button
-                    size="lg"
-                    variant="light"
-                    onClick={onAbrirInvitacion}
-                    className="boton-portada"
-                >
-                    Voir l’invitation
-                </Button>
+                    <Button
+                        size="lg"
+                        variant="light"
+                        onClick={onAbrirInvitacion}
+                        className="boton-portada"
+                    >
+                        Voir l’invitation
+                    </Button>
+                </div>
             </motion.div>
-
         </div>
     );
 };

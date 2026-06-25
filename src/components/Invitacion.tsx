@@ -7,6 +7,7 @@ import CuentaRegresiva from "./invitacion/CuentaRegresiva";
 import Lugar from "./invitacion/Lugar";
 import DressCode from "./invitacion/DressCode";
 import Cronograma from "./invitacion/Cronograma";
+import Confirmar from "./invitacion/Confirmar";
 
 
 
@@ -48,6 +49,7 @@ const Invitacion = ({ onCerrarInvitacion, nombresInvitado }: Props) => {
                 <Lugar/>
                 <DressCode/>
                 <Cronograma/>
+                <Confirmar/>
                 
                 
 

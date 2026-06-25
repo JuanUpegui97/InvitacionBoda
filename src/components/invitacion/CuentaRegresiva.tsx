@@ -86,7 +86,7 @@ const CuentaRegresiva = () => {
                     }}
                 >
                     <h1>{tiempo.dias}</h1>
-                    <p>Días</p>
+                    <p>Jours</p>
                 </div>
 
                 <div
@@ -99,7 +99,7 @@ const CuentaRegresiva = () => {
                     }}
                 >
                     <h1>{tiempo.horas}</h1>
-                    <p>Horas</p>
+                    <p>Heures</p>
                 </div>
 
                 <div
@@ -112,7 +112,7 @@ const CuentaRegresiva = () => {
                     }}
                 >
                     <h1>{tiempo.minutos}</h1>
-                    <p>Minutos</p>
+                    <p>Minutes</p>
                 </div>
 
                 <div
@@ -125,7 +125,7 @@ const CuentaRegresiva = () => {
                     }}
                 >
                     <h1>{tiempo.segundos}</h1>
-                    <p>Segundos</p>
+                    <p>Secondes</p>
                 </div>
 
             </div>

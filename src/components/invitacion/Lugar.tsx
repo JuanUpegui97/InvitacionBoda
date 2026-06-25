@@ -6,7 +6,7 @@ const Lugar = () => {
         <div className="seccion-invitacion">
 
             <h2>
-                📍 Lieu de la célébration
+                📍 Lieu de la célébration - L'ImpenSable
             </h2>
 
             <img
@@ -23,9 +23,6 @@ const Lugar = () => {
             />
 
             <div className="card-seccion">
-                <h3>
-                    L'ImpenSable
-                </h3>
 
                 <p>
                     Nous vous recevrons les pieds dans le sable, au milieu des arbres et des vignes.

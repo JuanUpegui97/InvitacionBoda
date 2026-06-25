@@ -2,10 +2,10 @@
 const DressCode = () => {
     return (
         <div className="seccion-invitacion">
-            <h2>Dress Code</h2>
+            <h2>Dress Code - Hermosos</h2>
 
             <div className="card-seccion">
-                <h3>Élégant</h3>
+                
 
                 <p>
                     Venez comme vous êtes, beaux comme des camions.
