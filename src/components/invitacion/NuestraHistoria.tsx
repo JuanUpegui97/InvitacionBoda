@@ -13,14 +13,17 @@ const NuestraHistoria = () => {
                 Notre histoire ❤️
             </h2>
 
-            <Carousel className="nuestra-historia-carousel">
+            <Carousel
+                className="nuestra-historia-carousel"
+                interval={2500}
+            >
 
                 <Carousel.Item>
                     <div className="carousel-imagen-wrapper">
                         <img
                             src={foto1}
                             alt="Foto 1"
-                            className="carousel-imagen-historia"
+                            className="carousel-imagen-historia ima1"
                         />
 
                         <div className="carousel-overlay"></div>
@@ -40,7 +43,7 @@ const NuestraHistoria = () => {
                         <img
                             src={foto2}
                             alt="Foto 2"
-                            className="carousel-imagen-historia"
+                            className="carousel-imagen-historia ima2"
                         />
 
                         <div className="carousel-overlay"></div>
@@ -60,7 +63,7 @@ const NuestraHistoria = () => {
                         <img
                             src={foto21}
                             alt="Foto 3"
-                            className="carousel-imagen-historia"
+                            className="carousel-imagen-historia ima21"
                         />
 
                         <div className="carousel-overlay"></div>
@@ -68,7 +71,7 @@ const NuestraHistoria = () => {
                         <Carousel.Caption className="carousel-caption-custom">
                             <h3>Mari et Femme</h3>
                             <p>
-                                Vous pouvez embrasser la mariée 💕
+                                Vous pouvez embrasser la mariée. 💕
                             </p>
                         </Carousel.Caption>
                     </div>
@@ -79,7 +82,7 @@ const NuestraHistoria = () => {
                         <img
                             src={foto3}
                             alt="Foto 4"
-                            className="carousel-imagen-historia"
+                            className="carousel-imagen-historia ima3"
                         />
 
                         <div className="carousel-overlay"></div>

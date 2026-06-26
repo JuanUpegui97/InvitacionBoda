@@ -1,4 +1,4 @@
-import imagenLugar from "../../assets/lugar.webp";
+import imagenLugar from "../../assets/lugar.jpeg";
 
 const Lugar = () => {
 
@@ -15,7 +15,7 @@ const Lugar = () => {
                 style={{
                     width: "100%",
                     maxWidth: "700px",
-                    height: "420px",
+                    height: "320px",
                     objectFit: "cover",
                     borderRadius: "20px",
                     marginTop: "30px",

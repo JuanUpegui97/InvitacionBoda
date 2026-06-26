@@ -24,12 +24,36 @@
 .carousel-imagen-historia {
     display: block;
     width: 100%;
-    max-height: 500px;
-    object-fit: cover;
     border-radius: 20px;
 }
 
+/* FOTO 1 */
+.ima1 {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
 
+/* FOTO 2 */
+.ima2 {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* FOTO 21 */
+.ima21 {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* FOTO 3 */
+.ima3 {
+    height: 500px;
+    object-fit: cover;
+    object-position: center 20%;
+}
 
 .carousel-caption-custom {
     z-index: 2;
