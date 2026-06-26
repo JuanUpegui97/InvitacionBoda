@@ -51,7 +51,6 @@ const Invitacion = ({ onCerrarInvitacion, nombresInvitado }: Props) => {
                 <Cronograma/>
                 <Confirmar/>
                 
-                
 
                 <button
                     onClick={onCerrarInvitacion}
