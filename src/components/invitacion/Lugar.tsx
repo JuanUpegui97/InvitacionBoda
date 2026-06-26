@@ -15,10 +15,15 @@ const Lugar = () => {
                 style={{
                     width: "100%",
                     maxWidth: "700px",
+                    height: "420px",
+                    objectFit: "cover",
                     borderRadius: "20px",
                     marginTop: "30px",
                     marginBottom: "30px",
-                    boxShadow: "0 10px 30px rgba(0,0,0,0.15)"
+                    boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
+                    display: "block",
+                    marginLeft: "auto",
+                    marginRight: "auto"
                 }}
             />
 
