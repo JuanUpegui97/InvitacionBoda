@@ -12,7 +12,7 @@ const Hero = ({ nombreInvitado }: Props) => {
             </h1>
 
             <p className="hero-texto">
-                C'est avec beaucoup de plaisir que nous t'invitons à célébrer notre amour.
+                Nous t'invitons à célébrer notre amour
             </p>
         </div>
     );

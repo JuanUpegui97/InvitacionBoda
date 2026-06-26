@@ -8,6 +8,7 @@ import Lugar from "./invitacion/Lugar";
 import DressCode from "./invitacion/DressCode";
 import Cronograma from "./invitacion/Cronograma";
 import Confirmar from "./invitacion/Confirmar";
+import LluviaSobres from "./invitacion/LluviaSobre";
 
 
 
@@ -57,7 +58,7 @@ const Invitacion = ({ onCerrarInvitacion, nombresInvitado }: Props) => {
                     onClick={onCerrarInvitacion}
                     className="btn btn-outline-dark"
                 >
-                    Volver
+                    Retour
                 </button>
 
             </Container>

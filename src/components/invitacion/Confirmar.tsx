@@ -26,7 +26,7 @@ const Confirmar = () => {
                         )
                     }
                 >
-                    Confirmar
+                    Confirmer 
                 </button>
             </div>
 

@@ -66,9 +66,9 @@ const NuestraHistoria = () => {
                         <div className="carousel-overlay"></div>
 
                         <Carousel.Caption className="carousel-caption-custom">
-                            <h3>Mari et femme</h3>
+                            <h3>Mari et Femme</h3>
                             <p>
-                                Notre premier baiser en tant que mari et femme 💕
+                                Vous pouvez embrasser la mariée 💕
                             </p>
                         </Carousel.Caption>
                     </div>

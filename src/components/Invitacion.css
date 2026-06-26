@@ -28,12 +28,13 @@
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
     backdrop-filter: blur(3px);
+    color: #649e21;
 }
 
 .card-seccion h3 {
     margin-bottom: 15px;
     font-size: 1.8rem;
-    color: #4b2e2e;
+    color: #7e0e0e;
 }
 
 .card-seccion p {

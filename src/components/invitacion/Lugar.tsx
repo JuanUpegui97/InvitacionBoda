@@ -1,4 +1,4 @@
-import imagenLugar from "../../assets/lugar.webp";
+import imagenLugar from "../../assets/lugar.png";
 
 const Lugar = () => {
 

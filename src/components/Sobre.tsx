@@ -33,7 +33,7 @@ const Sobre = ({ onAbrirInvitacion }: Props) => {
                     </h1>
 
                     <h3 className="subtitulo-portada">
-                        Se marient
+                        Se (re)marient
                     </h3>
 
                     <Button
