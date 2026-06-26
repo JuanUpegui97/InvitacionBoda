@@ -8,7 +8,6 @@ import Lugar from "./invitacion/Lugar";
 import DressCode from "./invitacion/DressCode";
 import Cronograma from "./invitacion/Cronograma";
 import Confirmar from "./invitacion/Confirmar";
-//import LluviaSobres from "./invitacion/LluviaSobre";
 
 
 
