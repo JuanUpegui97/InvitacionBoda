@@ -1,4 +1,4 @@
-import imagenLugar from "../../assets/lugar.png";
+import imagenLugar from "../../assets/Lugar.png";
 
 const Lugar = () => {
 
