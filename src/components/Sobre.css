@@ -43,7 +43,7 @@
 /* NOMBRES */
 .titulo-portada {
     font-family: 'Explora', cursive;
-    font-size: 5rem;
+    font-size: clamp(2.8rem, 9vw, 5rem);
     font-weight: 700;
     /* Usa la versión más elegante */
     color: white;
