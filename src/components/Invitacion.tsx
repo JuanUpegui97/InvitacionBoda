@@ -43,21 +43,26 @@ const Invitacion = ({ onCerrarInvitacion, nombresInvitado }: Props) => {
                 fluid
                 className="text-center invitacion-container"
             >
-                <Hero nombreInvitado={nombresInvitado}/>
-                <NuestraHistoria/>
-                <CuentaRegresiva/>
-                <Lugar/>
-                <DressCode/>
-                <Cronograma/>
-                <Confirmar/>
-                
+                <Hero nombreInvitado={nombresInvitado} />
+                <NuestraHistoria />
+                <CuentaRegresiva />
+                <Lugar />
+                <DressCode />
+                <Cronograma />
+                <Confirmar />
 
-                <button
-                    onClick={onCerrarInvitacion}
-                    className="btn btn-outline-dark"
-                >
-                    Retour
-                </button>
+
+                <div style={{ textAlign: "center" }}>
+                    <button
+                        onClick={onCerrarInvitacion}
+                        className="btn btn-outline-dark"
+                        style={{
+                            width: "100px",
+                        }}
+                    >
+                        Retour
+                    </button>
+                </div>
 
             </Container>
 
