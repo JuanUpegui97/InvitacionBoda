@@ -128,6 +128,20 @@ const CuentaRegresiva = () => {
                     <p>Secondes</p>
                 </div>
 
+
+
+            </div>
+
+            <div
+             style={{
+                marginTop: "10px",
+                marginBottom: "120px"
+            }}>
+
+                <p>
+                    Heure de la cérémonie à confirmer - probablement aux alentours de 17h
+                </p>
+                    
             </div>
 
         </div>
