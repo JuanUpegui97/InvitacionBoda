@@ -2,7 +2,7 @@
 const DressCode = () => {
     return (
         <div className="seccion-invitacion">
-            <h2>Dress Code - Hermosos</h2>
+            <h2>Dresscode - Hermosos</h2>
 
             <div className="card-seccion">
                 
