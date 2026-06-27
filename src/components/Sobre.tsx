@@ -17,6 +17,7 @@ const Sobre = ({ onAbrirInvitacion }: Props) => {
                 muted
                 loop
                 playsInline
+                preload="auto"
             >
                 <source src={videoPortada} type="video/mp4" />
             </video>
