@@ -53,8 +53,8 @@ const CuentaRegresiva = () => {
 
         <div
             style={{
-                marginTop: "120px",
-                marginBottom: "120px"
+                marginTop: "20px",
+                marginBottom: "50px"
             }}
         >
 
@@ -135,7 +135,7 @@ const CuentaRegresiva = () => {
             <div
              style={{
                 marginTop: "10px",
-                marginBottom: "120px"
+                marginBottom: "10px"
             }}>
 
                 <p>

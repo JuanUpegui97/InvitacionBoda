@@ -13,7 +13,6 @@
     font-size: 3rem;
     color: #6b3f3f;
     margin-bottom: 18px;
-    font-family: "Playfair Display", serif;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -24,4 +23,10 @@
     font-size: 1.12rem;
     line-height: 1.9;
     color: #5a4a4a;
+}
+
+@media (max-width: 768px) {
+    .hero-invitado {
+        margin-bottom: 25px;
+    }
 }
