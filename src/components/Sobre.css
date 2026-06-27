@@ -43,7 +43,7 @@
 /* NOMBRES */
 .titulo-portada {
     font-family: 'Explora', cursive;
-    font-size: 5rem;
+    font-size: 6rem !important;
     font-weight: 700;
     /* Usa la versión más elegante */
     color: white;
@@ -53,8 +53,7 @@
 /* SE MARIENT */
 .subtitulo-portada {
     font-family: 'Explora', cursive;
-    font-size: 5rem;
-    font-size: clamp(1rem, 2vw, 1.35rem);
+    font-size: 2rem !important;
     font-weight: 500;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -75,7 +74,7 @@
 
     border-radius: 999px !important;
     padding: 14px 34px !important;
-    font-size: 1.1rem !important;
+    font-size: 4% !important;
     font-weight: 500 !important;
     letter-spacing: 1px;
     border: 1px solid rgba(255, 255, 255, 0.9) !important;
